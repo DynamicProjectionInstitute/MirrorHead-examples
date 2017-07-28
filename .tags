@@ -1,0 +1,235 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArtNetDMX512	MirrorHead-ArtNet-Example1.py	/^class ArtNetDMX512(LittleEndianStructure):$/;"	c
+ArtNetDMX512	MirrorHead-ArtNet-Example2.py	/^class ArtNetDMX512(LittleEndianStructure):$/;"	c
+ArtNetDMX512	MirrorHead-ArtNet-Example3.py	/^class ArtNetDMX512(LittleEndianStructure):$/;"	c
+DMX	MirrorHead-ArtNet-Example2.py	/^class DMX(Thread):$/;"	c
+FloatTypes	OSC.py	/^FloatTypes = [types.FloatType]$/;"	v
+ForkingOSCServer	OSC.py	/^class ForkingOSCServer(ForkingMixIn, OSCServer):$/;"	c
+IntTypes	OSC.py	/^IntTypes = [types.IntType]$/;"	v
+MIRROR_HEAD_IP	MirrorHead-ArtNet-Example1.py	/^MIRROR_HEAD_IP="2.0.0.3"$/;"	v
+MIRROR_HEAD_IP	MirrorHead-ArtNet-Example2.py	/^MIRROR_HEAD_IP="2.0.0.3"$/;"	v
+MIRROR_HEAD_IPS	MirrorHead-ArtNet-Example3.py	/^MIRROR_HEAD_IPS=["2.0.0.3"]$/;"	v
+NTP_epoch	OSC.py	/^NTP_epoch = timegm((1900,1,1,0,0,0)) # NTP time started in 1 Jan 1900$/;"	v
+NTP_units_per_second	OSC.py	/^NTP_units_per_second = 0x100000000 # about 232 picoseconds$/;"	v
+NoCallbackError	OSC.py	/^class NoCallbackError(OSCServerError):$/;"	c
+NotSubscribedError	OSC.py	/^class NotSubscribedError(OSCClientError):$/;"	c
+OSCAddressSpace	OSC.py	/^class OSCAddressSpace:$/;"	c
+OSCArgument	OSC.py	/^def OSCArgument(next, typehint=None):$/;"	f
+OSCBlob	OSC.py	/^def OSCBlob(next):$/;"	f
+OSCBundle	OSC.py	/^class OSCBundle(OSCMessage):$/;"	c
+OSCClient	OSC.py	/^class OSCClient(object):$/;"	c
+OSCClientError	OSC.py	/^class OSCClientError(OSCError):$/;"	c
+OSCError	OSC.py	/^class OSCError(Exception):$/;"	c
+OSCMessage	OSC.py	/^class OSCMessage(object):$/;"	c
+OSCMultiClient	OSC.py	/^class OSCMultiClient(OSCClient):$/;"	c
+OSCRequestHandler	OSC.py	/^class OSCRequestHandler(DatagramRequestHandler):$/;"	c
+OSCServer	OSC.py	/^class OSCServer(UDPServer, OSCAddressSpace):$/;"	c
+OSCServerError	OSC.py	/^class OSCServerError(OSCError):$/;"	c
+OSCStreamRequestHandler	OSC.py	/^class OSCStreamRequestHandler(StreamRequestHandler, OSCAddressSpace):$/;"	c
+OSCStreamingClient	OSC.py	/^class OSCStreamingClient(OSCAddressSpace):$/;"	c
+OSCStreamingServer	OSC.py	/^class OSCStreamingServer(TCPServer):$/;"	c
+OSCStreamingServerThreading	OSC.py	/^class OSCStreamingServerThreading(ThreadingMixIn, OSCStreamingServer):$/;"	c
+OSCString	OSC.py	/^def OSCString(next):$/;"	f
+OSCTimeTag	OSC.py	/^def OSCTimeTag(time):$/;"	f
+OSCtrans	OSC.py	/^OSCtrans = string.maketrans("{,}?","(|).")$/;"	v
+PORT	MirrorHead-ArtNet-Example1.py	/^    PORT = 0x1936$/;"	v	class:ArtNetDMX512
+PORT	MirrorHead-ArtNet-Example2.py	/^    PORT = 0x1936$/;"	v	class:ArtNetDMX512
+PORT	MirrorHead-ArtNet-Example3.py	/^    PORT = 0x1936$/;"	v	class:ArtNetDMX512
+RequestHandlerClass	OSC.py	/^	RequestHandlerClass = OSCRequestHandler$/;"	v	class:OSCServer
+RequestHandlerClass	OSC.py	/^	RequestHandlerClass = OSCStreamRequestHandler$/;"	v	class:OSCStreamingServer
+RequestHandlerClass	OSC.py	/^	RequestHandlerClass = ThreadingOSCRequestHandler$/;"	v	class:ForkingOSCServer
+RequestHandlerClass	OSC.py	/^	RequestHandlerClass = ThreadingOSCRequestHandler$/;"	v	class:ThreadingOSCServer
+ThreadingOSCRequestHandler	OSC.py	/^class ThreadingOSCRequestHandler(OSCRequestHandler):$/;"	c
+ThreadingOSCServer	OSC.py	/^class ThreadingOSCServer(ThreadingMixIn, OSCServer):$/;"	c
+__add__	OSC.py	/^	def __add__(self, values):$/;"	m	class:OSCMessage	file:
+__contains__	OSC.py	/^	def __contains__(self, val):$/;"	m	class:OSCMessage	file:
+__delitem__	OSC.py	/^	def __delitem__(self, i):$/;"	m	class:OSCMessage	file:
+__eq__	OSC.py	/^	def __eq__(self, other):$/;"	m	class:OSCBundle	file:
+__eq__	OSC.py	/^	def __eq__(self, other):$/;"	m	class:OSCClient	file:
+__eq__	OSC.py	/^	def __eq__(self, other):$/;"	m	class:OSCMessage	file:
+__eq__	OSC.py	/^	def __eq__(self, other):$/;"	m	class:OSCServer	file:
+__eq__	OSC.py	/^	def __eq__(self, other):$/;"	m	class:OSCStreamingClient	file:
+__getitem__	OSC.py	/^	def __getitem__(self, i):$/;"	m	class:OSCMessage	file:
+__iadd__	OSC.py	/^	def __iadd__(self, values):$/;"	m	class:OSCMessage	file:
+__init__	MirrorHead-ArtNet-Example1.py	/^    def __init__(self):$/;"	m	class:ArtNetDMX512
+__init__	MirrorHead-ArtNet-Example2.py	/^	def __init__ (self,ip):$/;"	m	class:DMX
+__init__	MirrorHead-ArtNet-Example2.py	/^    def __init__(self):$/;"	m	class:ArtNetDMX512
+__init__	MirrorHead-ArtNet-Example3.py	/^    def __init__(self):$/;"	m	class:ArtNetDMX512
+__init__	OSC.py	/^	def __init__(self):$/;"	m	class:OSCAddressSpace
+__init__	OSC.py	/^	def __init__(self):$/;"	m	class:OSCStreamingClient
+__init__	OSC.py	/^	def __init__(self, addr, prefix=None):$/;"	m	class:NotSubscribedError
+__init__	OSC.py	/^	def __init__(self, address):$/;"	m	class:OSCStreamingServer
+__init__	OSC.py	/^	def __init__(self, address="", *args):$/;"	m	class:OSCMessage
+__init__	OSC.py	/^	def __init__(self, address="", time=0):$/;"	m	class:OSCBundle
+__init__	OSC.py	/^	def __init__(self, message):$/;"	m	class:OSCError
+__init__	OSC.py	/^	def __init__(self, pattern):$/;"	m	class:NoCallbackError
+__init__	OSC.py	/^	def __init__(self, request, client_address, server):$/;"	m	class:OSCStreamRequestHandler
+__init__	OSC.py	/^	def __init__(self, server=None):$/;"	m	class:OSCClient
+__init__	OSC.py	/^	def __init__(self, server=None):$/;"	m	class:OSCMultiClient
+__init__	OSC.py	/^	def __init__(self, server_address, client=None, return_port=0):$/;"	m	class:OSCServer
+__iter__	OSC.py	/^	def __iter__(self):$/;"	m	class:OSCMessage	file:
+__len__	OSC.py	/^	def __len__(self):$/;"	m	class:OSCMessage	file:
+__ne__	OSC.py	/^	def __ne__(self, other):$/;"	m	class:OSCClient	file:
+__ne__	OSC.py	/^	def __ne__(self, other):$/;"	m	class:OSCMessage	file:
+__ne__	OSC.py	/^	def __ne__(self, other):$/;"	m	class:OSCServer	file:
+__ne__	OSC.py	/^	def __ne__(self, other):$/;"	m	class:OSCStreamingClient	file:
+__radd__	OSC.py	/^	def __radd__(self, values):$/;"	m	class:OSCMessage	file:
+__repr__	OSC.py	/^	def __repr__(self):$/;"	m	class:OSCMessage	file:
+__reversed__	OSC.py	/^	def __reversed__(self):$/;"	m	class:OSCMessage	file:
+__setitem__	OSC.py	/^	def __setitem__(self, i, val):$/;"	m	class:OSCMessage	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCBundle	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCClient	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCError	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCMessage	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCServer	file:
+__str__	OSC.py	/^	def __str__(self):$/;"	m	class:OSCStreamingClient	file:
+_buildItemList	OSC.py	/^	def _buildItemList(self, values, typehint=None):$/;"	m	class:OSCMessage
+_clientRegister	OSC.py	/^	def _clientRegister(self, client):$/;"	m	class:OSCStreamingServer
+_clientUnregister	OSC.py	/^	def _clientUnregister(self, client):$/;"	m	class:OSCStreamingServer
+_delTarget	OSC.py	/^	def _delTarget(self, address, prefix=None):$/;"	m	class:OSCMultiClient
+_ensureConnected	OSC.py	/^	def _ensureConnected(self, address):$/;"	m	class:OSCClient
+_fields_	MirrorHead-ArtNet-Example1.py	/^    _fields_ = [("id", c_char * 8),$/;"	v	class:ArtNetDMX512
+_fields_	MirrorHead-ArtNet-Example2.py	/^    _fields_ = [("id", c_char * 8),$/;"	v	class:ArtNetDMX512
+_fields_	MirrorHead-ArtNet-Example3.py	/^    _fields_ = [("id", c_char * 8),$/;"	v	class:ArtNetDMX512
+_filterMessage	OSC.py	/^	def _filterMessage(self, filters, msg):$/;"	m	class:OSCMultiClient
+_prefixAddress	OSC.py	/^	def _prefixAddress(self, prefix, msg):$/;"	m	class:OSCMultiClient
+_readBlob	OSC.py	/^def _readBlob(data):$/;"	f
+_readDouble	OSC.py	/^def _readDouble(data):$/;"	f
+_readFloat	OSC.py	/^def _readFloat(data):$/;"	f
+_readInt	OSC.py	/^def _readInt(data):$/;"	f
+_readLong	OSC.py	/^def _readLong(data):$/;"	f
+_readString	OSC.py	/^def _readString(data):$/;"	f
+_readTimeTag	OSC.py	/^def _readTimeTag(data):$/;"	f
+_receive	OSC.py	/^	def _receive(self, count):$/;"	m	class:OSCStreamRequestHandler
+_receiveMsg	OSC.py	/^	def _receiveMsg(self):$/;"	m	class:OSCStreamRequestHandler
+_receiveMsgWithTimeout	OSC.py	/^	def _receiveMsgWithTimeout(self):$/;"	m	class:OSCStreamingClient
+_receiveWithTimeout	OSC.py	/^	def _receiveWithTimeout(self, count):$/;"	m	class:OSCStreamingClient
+_receiving_thread_entry	OSC.py	/^	def _receiving_thread_entry(self):$/;"	m	class:OSCStreamingClient
+_reencapsulate	OSC.py	/^	def _reencapsulate(self, decoded):$/;"	m	class:OSCBundle
+_reencode	OSC.py	/^	def _reencode(self, items):$/;"	m	class:OSCMessage
+_searchHostAddr	OSC.py	/^	def _searchHostAddr(self, host):$/;"	m	class:OSCMultiClient
+_setSocket	OSC.py	/^	def _setSocket(self, skt):$/;"	m	class:OSCClient
+_setTarget	OSC.py	/^	def _setTarget(self, address, prefix=None, filters=None):$/;"	m	class:OSCMultiClient
+_subscribe	OSC.py	/^	def _subscribe(self, data, client_address):$/;"	m	class:OSCServer
+_transmit	OSC.py	/^	def _transmit(self, data):$/;"	m	class:OSCStreamRequestHandler
+_transmitMsg	OSC.py	/^	def _transmitMsg(self, msg):$/;"	m	class:OSCStreamRequestHandler
+_transmitMsgWithTimeout	OSC.py	/^	def _transmitMsgWithTimeout(self, msg):$/;"	m	class:OSCStreamingClient
+_transmitWithTimeout	OSC.py	/^	def _transmitWithTimeout(self, data):$/;"	m	class:OSCStreamingClient
+_unbundle	OSC.py	/^	def _unbundle(self, decoded):$/;"	m	class:OSCRequestHandler
+_unbundle	OSC.py	/^	def _unbundle(self, decoded):$/;"	m	class:OSCStreamRequestHandler
+_unbundle	OSC.py	/^	def _unbundle(self, decoded):$/;"	m	class:OSCStreamingClient
+_unbundle	OSC.py	/^	def _unbundle(self, decoded):$/;"	m	class:ThreadingOSCRequestHandler
+_unsubscribe	OSC.py	/^	def _unsubscribe(self, data, client_address):$/;"	m	class:OSCServer
+_updateFilters	OSC.py	/^	def _updateFilters(self, dst, src):$/;"	m	class:OSCMultiClient
+addDefaultHandlers	OSC.py	/^	def addDefaultHandlers(self, prefix="", info_prefix="\/info", error_prefix="\/error"):$/;"	m	class:OSCServer
+addMsgHandler	OSC.py	/^	def addMsgHandler(self, address, callback):$/;"	m	class:OSCAddressSpace
+address	OSC.py	/^	def address(self):$/;"	m	class:OSCClient
+address	OSC.py	/^	def address(self):$/;"	m	class:OSCServer
+append	OSC.py	/^	def append(self, argument, typehint = None):$/;"	m	class:OSCBundle
+append	OSC.py	/^	def append(self, argument, typehint=None):$/;"	m	class:OSCMessage
+broadcastToClients	OSC.py	/^	def broadcastToClients(self, oscData):$/;"	m	class:OSCStreamingServer
+clear	OSC.py	/^	def clear(self, address=""):$/;"	m	class:OSCMessage
+clearData	OSC.py	/^	def clearData(self):$/;"	m	class:OSCMessage
+clearOSCTargets	OSC.py	/^	def clearOSCTargets(self):$/;"	m	class:OSCMultiClient
+close	OSC.py	/^	def close(self):$/;"	m	class:OSCClient
+close	OSC.py	/^	def close(self):$/;"	m	class:OSCServer
+close	OSC.py	/^	def close(self):$/;"	m	class:OSCStreamingClient
+connect	OSC.py	/^	def connect(self, address):$/;"	m	class:OSCClient
+connect	OSC.py	/^	def connect(self, address):$/;"	m	class:OSCMultiClient
+connect	OSC.py	/^	def connect(self, address):$/;"	m	class:OSCStreamingClient
+copy	OSC.py	/^	def copy(self):$/;"	m	class:OSCBundle
+copy	OSC.py	/^	def copy(self):$/;"	m	class:OSCMessage
+count	OSC.py	/^	def count(self, val):$/;"	m	class:OSCMessage
+decodeOSC	OSC.py	/^def decodeOSC(data):$/;"	f
+delMsgHandler	OSC.py	/^	def delMsgHandler(self, address):$/;"	m	class:OSCAddressSpace
+delOSCTarget	OSC.py	/^	def delOSCTarget(self, address, prefix=None):$/;"	m	class:OSCMultiClient
+dispatchMessage	OSC.py	/^	def dispatchMessage(self, pattern, tags, data, client_address):$/;"	m	class:OSCAddressSpace
+exitthread	MirrorHead-ArtNet-Example2.py	/^	exitthread = False$/;"	v
+exitthread	MirrorHead-ArtNet-Example2.py	/^        exitthread = True$/;"	v
+extend	OSC.py	/^	def extend(self, values):$/;"	m	class:OSCMessage
+finish	OSC.py	/^	def finish(self):$/;"	m	class:OSCRequestHandler
+finish	OSC.py	/^	def finish(self):$/;"	m	class:OSCStreamRequestHandler
+getBinary	OSC.py	/^	def getBinary(self):$/;"	m	class:OSCBundle
+getBinary	OSC.py	/^	def getBinary(self):$/;"	m	class:OSCMessage
+getFilterStr	OSC.py	/^def getFilterStr(filters):$/;"	f
+getOSCAddressSpace	OSC.py	/^	def getOSCAddressSpace(self):$/;"	m	class:OSCAddressSpace
+getOSCTarget	OSC.py	/^	def getOSCTarget(self, address):$/;"	m	class:OSCMultiClient
+getOSCTargetStr	OSC.py	/^	def getOSCTargetStr(self, address):$/;"	m	class:OSCMultiClient
+getOSCTargetStrings	OSC.py	/^	def getOSCTargetStrings(self):$/;"	m	class:OSCMultiClient
+getOSCTargets	OSC.py	/^	def getOSCTargets(self):$/;"	m	class:OSCMultiClient
+getRegEx	OSC.py	/^def getRegEx(pattern):$/;"	f
+getTimeTagStr	OSC.py	/^	def getTimeTagStr(self):$/;"	m	class:OSCBundle
+getUrlStr	OSC.py	/^def getUrlStr(*args):$/;"	f
+handle	OSC.py	/^	def handle(self):$/;"	m	class:OSCRequestHandler
+handle	OSC.py	/^	def handle(self):$/;"	m	class:OSCStreamRequestHandler
+handle_error	OSC.py	/^	def handle_error(self, request, client_address):$/;"	m	class:OSCServer
+hasOSCTarget	OSC.py	/^	def hasOSCTarget(self, address, prefix=None):$/;"	m	class:OSCMultiClient
+hexDump	OSC.py	/^def hexDump(bytes):$/;"	f
+index	OSC.py	/^	def index(self, val):$/;"	m	class:OSCMessage
+insert	OSC.py	/^	def insert(self, i, val, typehint = None):$/;"	m	class:OSCMessage
+items	OSC.py	/^	def items(self):$/;"	m	class:OSCMessage
+iteritems	OSC.py	/^	def iteritems(self):$/;"	m	class:OSCMessage
+itertags	OSC.py	/^	def itertags(self):$/;"	m	class:OSCMessage
+itervalues	OSC.py	/^	def itervalues(self):$/;"	m	class:OSCMessage
+main	MirrorHead-ArtNet-Example1.py	/^def main():$/;"	f
+main	MirrorHead-ArtNet-Example2.py	/^def main():$/;"	f
+main	MirrorHead-ArtNet-Example3.py	/^def main():$/;"	f
+mk_led	MirrorHead-ArtNet-Example2.py	/^def mk_led(obj,m,r,g,b):$/;"	f
+mk_pos	MirrorHead-ArtNet-Example2.py	/^def mk_pos(obj,p,t):$/;"	f
+msgPrinter_handler	OSC.py	/^	def msgPrinter_handler(self, addr, tags, data, client_address):$/;"	m	class:OSCServer
+noCallback_handler	OSC.py	/^	def noCallback_handler(self, addr, tags, data, client_address):$/;"	m	class:OSCServer
+parseFilterStr	OSC.py	/^def parseFilterStr(args):$/;"	f
+parseUrlStr	OSC.py	/^def parseUrlStr(url):$/;"	f
+pop	OSC.py	/^	def pop(self, i):$/;"	m	class:OSCMessage
+popitem	OSC.py	/^	def popitem(self, i):$/;"	m	class:OSCMessage
+preset	MirrorHead-ArtNet-Example3.py	/^def preset(D):$/;"	f
+printErr	OSC.py	/^	def printErr(self, txt):$/;"	m	class:OSCServer
+print_tracebacks	OSC.py	/^	print_tracebacks = False$/;"	v	class:OSCServer
+rcvbuf_size	OSC.py	/^	rcvbuf_size = 4096 * 8$/;"	v	class:OSCStreamingClient
+remove	OSC.py	/^	def remove(self, val):$/;"	m	class:OSCMessage
+reportErr	OSC.py	/^	def reportErr(self, txt, client_address):$/;"	m	class:OSCServer
+reverse	OSC.py	/^	def reverse(self):$/;"	m	class:OSCMessage
+run	MirrorHead-ArtNet-Example2.py	/^        def run(self):$/;"	f	function:DMX.__init__
+send	OSC.py	/^	def send(self, msg, timeout=None):$/;"	m	class:OSCClient
+send	OSC.py	/^	def send(self, msg, timeout=None):$/;"	m	class:OSCMultiClient
+sendOSC	OSC.py	/^	def sendOSC(self, msg):$/;"	m	class:OSCStreamingClient
+sendOSC	OSC.py	/^	def sendOSC(self, oscData):$/;"	m	class:OSCStreamRequestHandler
+sendOSCerror	OSC.py	/^	def sendOSCerror(self, txt, client_address):$/;"	m	class:OSCServer
+sendOSCinfo	OSC.py	/^	def sendOSCinfo(self, txt, client_address):$/;"	m	class:OSCServer
+sender	MirrorHead-ArtNet-Example3.py	/^def sender(S,D):$/;"	f
+sendto	OSC.py	/^	def sendto(self, msg, address, timeout=None):$/;"	m	class:OSCClient
+sendto	OSC.py	/^	def sendto(self, msg, address, timeout=None):$/;"	m	class:OSCMultiClient
+serve_forever	OSC.py	/^	def serve_forever(self):$/;"	m	class:OSCServer
+serve_forever	OSC.py	/^	def serve_forever(self):$/;"	m	class:OSCStreamingServer
+serverInfo_handler	OSC.py	/^	def serverInfo_handler(self, addr, tags, data, client_address):$/;"	m	class:OSCServer
+setAddress	OSC.py	/^	def setAddress(self, address):$/;"	m	class:OSCMessage
+setClient	OSC.py	/^	def setClient(self, client):$/;"	m	class:OSCServer
+setItem	OSC.py	/^	def setItem(self, i, val, typehint=None):$/;"	m	class:OSCMessage
+setOSCTarget	OSC.py	/^	def setOSCTarget(self, address, prefix=None, filters=None):$/;"	m	class:OSCMultiClient
+setOSCTargetFromStr	OSC.py	/^	def setOSCTargetFromStr(self, url):$/;"	m	class:OSCMultiClient
+setReturnPort	OSC.py	/^	def setReturnPort(self, port):$/;"	m	class:OSCServer
+setServer	OSC.py	/^	def setServer(self, server):$/;"	m	class:OSCClient
+setSrvErrorPrefix	OSC.py	/^	def setSrvErrorPrefix(self, pattern=""):$/;"	m	class:OSCServer
+setSrvInfoPrefix	OSC.py	/^	def setSrvInfoPrefix(self, pattern):$/;"	m	class:OSCServer
+setTimeTag	OSC.py	/^	def setTimeTag(self, time):$/;"	m	class:OSCBundle
+setup	OSC.py	/^	def setup(self):$/;"	m	class:OSCRequestHandler
+setup	OSC.py	/^	def setup(self):$/;"	m	class:OSCStreamRequestHandler
+setupAddressSpace	OSC.py	/^	def setupAddressSpace(self):$/;"	m	class:OSCStreamRequestHandler
+sndbuf_size	OSC.py	/^	sndbuf_size = 4096 * 8$/;"	v	class:OSCClient
+sndbuf_size	OSC.py	/^	sndbuf_size = 4096 * 8$/;"	v	class:OSCStreamingClient
+socket_timeout	OSC.py	/^	socket_timeout = 1$/;"	v	class:OSCServer
+socket_timeout	OSC.py	/^	socket_timeout = 1$/;"	v	class:OSCStreamingServer
+split_to_low_high	MirrorHead-ArtNet-Example2.py	/^def split_to_low_high(v):$/;"	f
+start	OSC.py	/^	def start(self):$/;"	m	class:OSCStreamingServer
+stop	OSC.py	/^	def stop(self):$/;"	m	class:OSCStreamingServer
+subscription_handler	OSC.py	/^	def subscription_handler(self, addr, tags, data, client_address):$/;"	m	class:OSCServer
+tags	OSC.py	/^	def tags(self):$/;"	m	class:OSCMessage
+updateOSCTargets	OSC.py	/^	def updateOSCTargets(self, dict):$/;"	m	class:OSCMultiClient
+values	OSC.py	/^	def values(self):$/;"	m	class:OSCBundle
+values	OSC.py	/^	def values(self):$/;"	m	class:OSCMessage
+version	OSC.py	/^version = ("0.3","6", "$Rev: 6382 $"[6:-2])$/;"	v
