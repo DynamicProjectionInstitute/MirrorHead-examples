@@ -8,6 +8,16 @@
 # Author: Martin Willner <mw@dynamicprojection.com>
 
 broker_address="2.0.0.2" 
+#
+# For a real world test with test.mosquitto.org (91.121.93.94) set the MQTT Broker IP on the Mirror Head to the same as below. Make sure you also 
+# set the gateway correct so the Mirror Head can access the internet.
+# Send: mosquitto_pub -h 91.121.93.94 -t "DPI/MH/global/input" -m "64 0 64 0 0 0 0 0 0 255 0 0 255 0 1", this will move the mirror and set the LED to blue. 
+# To regain ArtNet/Web/DMX controll set the last byte to 0:
+# mosquitto_pub -h 91.121.93.94 -t "DPI/MH/global/input" -m "64 0 64 0 0 0 0 0 0 255 0 0 255 0 0"
+# 
+# ENABLE THIS FOR INERNET TEST:
+# broker_address="91.121.93.94" 
+
 
 import paho.mqtt.client as mqtt 
 import struct
